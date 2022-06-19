@@ -1,0 +1,5 @@
+Wnioski z analizy czasowych wyników dla trzech adresowań:
+1. Adresowanie liniowe jest zdecydowanie wolniejsze od dwóch pozostałych. 
+2. Czas wstawiania elementów staje się dużo krótszy, jeżeli początkowa długość tablicy mieszającej znacznie przewyższa ilość wstawianych elementów.
+3. Początkowa długość tablicy mieszającej większa od liczby wstawianych elementów nie gwarantuje najszybszego czasu działania (czasy dla 131072 i 262144 nie były zbliżone).
+Ma to związek z rozszerzaniem tablicy mieszającej- dla mniejszego rozmiaru jest ono wykonywane, dla większego- nie.
